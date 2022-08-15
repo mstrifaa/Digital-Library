@@ -1,0 +1,36 @@
+#home {
+    background-image: url("./../images/bgImage.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.msg {
+    position: relative;
+    top: 40%;
+}
+
+.form-control:focus,
+.navbar-toggler:focus,
+button:focus {
+    /* color: #212529;
+    background-color: #fff;
+    border-color: inherit; */
+    outline: 0;
+    box-shadow: none;
+}
+
+/*
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+@media all and (max-width: 991px) {
+  #navbarNav{
+    margin-bottom: 20px;
+  }
+  .form-control{display:none;}
+  .btn{--bs-btn-border-color:: none;}
+} */
